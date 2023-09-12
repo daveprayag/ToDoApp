@@ -13,7 +13,7 @@ const PORT = process.env.PORT | 3000;
 app.use(express.json());
 app.use(
   cors({
-    origin: ["https://todoapp-daveprayag.vercel.app/"],
+    origin: ["https://todoapp-daveprayag.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
   })
